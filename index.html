@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>僕のポートフォリオ</title>
+    <style media="screen">
+
+
+    /*JavaScript*/
+    .js-fadein {
+   opacity: 0;
+   visibility: hidden;
+   transform: translatex(0px);
+   transition: all 1.2s;
+   }
+   .js-fadein.is-show {
+   opacity: 1;
+   visibility: visible;
+   transform: translateY(8px);
+   }
+
+
+   /*CSS*/
+
+
+   /*htmlの全体(body)⏬*/
+
+
+    body{
+      background: white;
+      font-family: Hannotate SC;
+    }
+
+    /*ヘッダー画像⏬*/
+    .topImage{
+    width: 100%;
+    height: 300px;
+    background-image: url("壁紙3.jpeg");
+    background-position: 30% 20%;
+    background-size: cover;
+    }
+
+    .topImage p{
+      position: absolute;/*絶対配置*/
+      color: black;/*文字は白に*/
+      font-size: 3em;/*文字サイズをn倍にする*/
+      top: 20px;
+      left: 600px;
+      font-family: 'Amatic SC', cursive;
+    }
+
+    /*ヘッダー⏬*/
+    header{
+
+      z-index: 10;
+      height: 95px;
+      position: relative;
+      top: 300px;
+      background-color: #333;
+      width: 100%;
+      text-align: center;
+      z-index: 2;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, .2);
+
+    }
+
+
+    ul{
+      overflow: hidden;
+      list-style: none;
+      margin: 0 auto;
+      z-index: 20;
+    }
+
+    ul li{
+      display: inline-block;
+      padding: 20px 10px 10px 10px
+    }
+
+    a{
+    color: #fff;
+    text-transform: uppercase;
+    }
+
+    .btn{
+
+      text-align: center;
+      position: relative;
+      display: inline-block;
+      text-decoration: none;
+
+    }.
+
+
+
+    .題名{
+      font-size: 80px;
+      font-style: italic;
+      color: #0000a2;
+    }
+
+    .お問い合わせ{
+      font-size: 50px;
+    }
+    .プロフ画像{
+      text-align: center;
+    }
+    .プロフ画像2{
+      border-radius: 100px;
+      box-shadow: 0 0 3px 1px #000000
+    }
+    .自己紹介{
+    }
+
+    .文字色1{
+      color: blue;
+    }
+    .文字色2{
+      color: blue;
+    }
+    .文字色3{
+      color: blue;
+    }
+
+    .スキルセット{
+      font-size: 50px;
+      text-align: center;
+    }
+
+/*⭐️スター⏬*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+.star-ratings-css{
+  unicode-bidi: bidi-override;
+  color: #c5c5c5;
+  font-size: 25px;
+  height: 25px;
+  width: 100px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0;
+  text-shadow: 0px 2px 0 #a2a2a2;
+}
+
+.star-ratings-css-top{
+  color: #e7711b;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.star-ratings-css-bottom {
+  padding: 0;
+  display: block;
+  z-index: 0;
+}
+
+.HTMLスキル {
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.CSSスキル {
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+    .製作物一覧{
+      font-size: 50px;
+    }
+    .メアド{
+      padding-right: 40px;
+      color: #ffffff
+    }
+    </style>
+  </head>
+
+
+<!--ここからHTML⏬-->
+
+
+  <body>
+    <div class="element js-fadein">
+    <h1 style="text-align:center" class="題名"> <!--styleの部分で真ん中寄せに出来る&classの部分
+    でcssで設定する時の印に出来る-->
+
+<div class= "topImage"><!--ヘッダー画像-->
+
+<p>My Portfolio.</p>
+<!--ネットからとってきたフォント⏬-->
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
+
+  <header>
+
+    <ul>
+      <li><a href="#" class="btn">Home</a></li>
+      <li><a href="#" class="btn">自己紹介</a></li>
+      <li><a href="#" class="btn">スキルセット</a></li>
+      <li><a href="#" class="btn">成果物一覧</a></li>
+      <li><a href="#" class="btn">お問い合わせ</a></li>
+    </ul>
+  </header>
+  </div>
+   <br><br><br><br>
+    </h1>
+    <p class="プロフ画像" border="1">
+    <br><br>
+　　 <img class="プロフ画像2" src="IMG_5674 2.JPG" alt="(ここは画像の説明)" height="200" width="200" >
+    </p>
+    <p class="自己紹介" style="text-align:center">
+      <br>
+      はじめまして、<b>谷口峻也</b>(23)と申します。
+      <br>
+      (※各アカウントは下記になります↓)
+      <br>
+      Twitter:
+      <a href="https://twitter.com/Shunya_Swift1"><span class="文字色1"><u>〇〇</u></span></a>
+      <br>
+      Qiita:<a href="https://qiita.com/shunya813"><span class="文字色2"><u>〇〇</u></span></a>
+      <br>
+      Github:<a href="https://github.com/shunya813?tab=repositories"><span class="文字色3"><u>〇〇</u></span></a>
+      <br>
+       独学で「Swift」を学習しております。
+      <br>　
+      趣味は温泉と映画鑑賞と読書とプログラミングです。
+      <br>
+      よろしくお願いいたします。
+    </p>
+    <br><br><br><br><br><br><br><br><br>
+
+    <!--ここからスキルセット⏬-->
+    <div class="スキルセット">
+      ~スキルセット~
+    </div>
+
+    <!--HTMLスキル⏬-->
+    <h1 class="HTMLスキル"><em>　<img src="HTML画像.png" height="25">「HTML」</em></h1>
+    <div class="star-ratings-css">
+      <div class="star-ratings-css-top" style="width:48%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+      <div class="star-ratings-css-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+    </div>
+    <br/><br/>
+
+    <!--CSSスキル⏬-->
+    <h1 class="CSSスキル" ><em>「CSS」</em></h1>
+    <div class="star-ratings-css">
+      <div class="star-ratings-css-top" style="width:77%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+      <div class="star-ratings-css-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+    </div>
+    <br/><br/>
+
+
+    <p class="製作物一覧" style="text-align:center">
+      <br><br><br>
+      ~成果物~
+    </p>
+    <p style="text-align:center">
+      ①ポートフォリオ
+      <br>(HTML/CSS/JavaScript)
+      <br><br><br>
+      <a href="#"><img src="original.jpg" height=100px; alt=""></a>
+
+    </p>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+     <p style="text-align:center"　class="お問い合わせ">
+       <b>
+        お問い合わせはこちらまで
+        </b>
+      <br>
+ 　　 <a class="メアド" href="mailto:shunya813@icloud.com">
+      shunya813@icloud.com
+    </a>
+  </p>
+</div>
+    <script type="text/javascript" src="script.js"><!--ここに記述しないとアニメーションがつかない-->
+    </script>
+  </body>
+</html>
